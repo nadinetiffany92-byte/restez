@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fallen But Never Forgotten — RIP by TrapPay</title>
+  <style>
+    :root{
+      --trap-red:#C8102E; --jet:#000; --smoke:#707070; --paper:#f7f7f7;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui, Arial, sans-serif; color:#fff;
+      background: radial-gradient(1200px 500px at 50% -100px, rgba(200,16,46,.45), transparent 60%) #000;
+    }
+    header{ text-align:center; padding:32px 16px 8px }
+    h1{ margin:0 0 4px; letter-spacing:.5px; color:var(--trap-red)}
+    .tag{ color:#ddd; font-size:.95rem }
+    .wall{ max-width:1100px; margin:28px auto 60px; padding:0 16px;
+      display:grid; grid-template-columns: repeat(12,1fr); gap:18px;
+    }
+    .card{
+      grid-column: span 12;
+      background: rgba(255,255,255,.03);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:18px; overflow:hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (min-width:760px){ .card{ grid-column: span 4; } }
+    .photo{ aspect-ratio: 4 / 3; background:#111; display:block; width:100%; object-fit:cover }
+    .meta{ padding:16px 18px 20px }
+    .name{ font-size:1.25rem; font-weight:700; margin:0 0 2px }
+    .nick{ font-weight:600; color:#eee }
+    .dates{ color:#bbb; font-size:.95rem; margin:6px 0 12px }
+    .msg{ color:#f1f1f1; line-height:1.5; font-size:.98rem; white-space:pre-wrap }
+    .row{ display:flex; gap:10px; align-items:center; margin-top:14px; flex-wrap:wrap }
+    .btn{
+      appearance:none; border:none; cursor:pointer;
+      background:linear-gradient(180deg, #d22440 0%, #9c0f27 100%);
+      color:#fff; padding:10px 14px; border-radius:999px; font-weight:700; text-decoration:none;
+      box-shadow:0 6px 16px rgba(200,16,46,.35);
+    }
+    .btn:focus-visible{ outline:2px solid #fff; outline-offset:2px }
+    footer{ text-align:center; color:#cfcfcf; font-size:.95rem; padding:26px 12px 36px; border-top:1px solid rgba(255,255,255,.08) }
+    .brand{ color:#fff; font-weight:700 }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fallen But Never Forgotten</h1>
+    <div class="tag">By the Block. For the Block.</div>
+  </header>
+
+  <main class="wall">
+
+    <!-- Gramz -->
+    <article class="card" aria-label="Memorial for Juanita A. Saldivar (Gramz)">
+      <img src="images/gramz.png" alt="Portrait of Juanita A. Saldivar (Gramz)" class="photo" />
+      <div class="meta">
+        <div class="name">Juanita A. Saldivar <span class="nick">“Gramz”</span></div>
+        <div class="dates">Sunrise: May 23, 1937 • Sunset: February 14, 2007</div>
+        <p class="msg">Gramz I miss you and I wish you could see what I'm doing now. You left me too soon. I was just a kid—now I'm grown with kids of my own... seven to be exact. The crazy thing is my oldest is about the same age I was the last time I hugged you. Man, how I miss you. You were more than my grandma — you were my homegirl. I remember going cruisin' with you. I was always with you. I would do anything just to have a little more time with you. I know you would've loved my babies so much. Until we meet again, Grama, please keep watching over your beautiful great-grandbabies. My Guardian Angel 💔</p>
+        <div class="row">
+          <a class="btn" href="https://youtu.be/z8WR3BsBOo0?si=5jaOE0dG1XIvdtSs" target="_blank" rel="noopener">Play Tribute: “Grandma” — Mike Jones</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Unc Ang -->
+    <article class="card" aria-label="Memorial for Mathew A. Rodriguez (Unc Ang)">
+      <img src="images/unc-ang.png" alt="Portrait of Mathew A. Rodriguez (Unc Ang)" class="photo" />
+      <div class="meta">
+        <div class="name">Mathew A. Rodriguez <span class="nick">“Unc Ang”</span></div>
+        <div class="dates">Sunrise: February 11, 1971 • Sunset: November 13, 2014</div>
+        <p class="msg">Unc Ang, it's your Miss Tiff. I love and miss you. The day we got the call, we jumped in my mom's van, and I floored it down Kings Ganyon like a NASCAR driver, scaring the crap outta her. I loved how no matter where I went, I always ran into you. I remember the way we gave each other that look like, “You better not tell.” 🙈🙉🙊
+
+And that time you dropped me off at home in Coco's car — I told you not to pull up all the way, and you did, blasting Rasta music with her system bumpin'. I knew I was caught.
+
+I'll always remember hanging off your arm like I was a dumbbell when I was little. You left too soon, and a piece of me left with you. But you're no longer suffering. Save me a spot up there, Unc — so we can kick it in Thugz Mansion.
+♡ Ms. Tiff — my nickname you gave me.</p>
+        <div class="row">
+          <a class="btn" href="https://youtu.be/XIQrUeRxlvA" target="_blank" rel="noopener">Play Tribute: “Roller Skates” — Steel Pulse</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Aunty Judy -->
+    <article class="card" aria-label="Memorial for Judy Galiste (Aunty Judy)">
+      <img src="images/aunty-judy.png" alt="Portrait of Judy Galiste (Aunty Judy)" class="photo" />
+      <div class="meta">
+        <div class="name">Judy Galiste <span class="nick">“Aunty Judy”</span></div>
+        <div class="dates">Sunrise: July 8, 1958 • Sunset: November 2018</div>
+        <p class="msg">I loved how close we'd gotten before you were called home. Those memories I hold close to me. I swear it was “like da movies” (in my Uncle Joe voice). May he rest in peace too.
+
+I love your wild self, Aunty — always spoke your mind and didn’t give no f****. You were the one that said what needed to be said, loud and clear. I miss you and wish I was able to drink one more fountain drink with you, lol (wink wink)...</p>
+        <div class="row">
+          <a class="btn" href="https://youtu.be/pAotFEI_kuE?si=XtozbQNrjQDn7l5V" target="_blank" rel="noopener">Play Tribute: “Dancing in the Sky” — Dani & Lizzy</a>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    <span class="brand">TrapPay Memorials</span> • Respect first. Features later.
+  </footer>
+</body>
+</html>
